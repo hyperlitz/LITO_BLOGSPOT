@@ -8,9 +8,9 @@ Tech Blog is a content management system (CMS) that allows developers to publish
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3](screenshots/screenshot3.png)
+![Screenshot 1](./public/images/pic1.png)
+![Screenshot 2](./public/images/pic2.png)
+![Screenshot 3](./public/images/pic3.png)
 
 ## Table of Contents
 
@@ -21,11 +21,15 @@ Tech Blog is a content management system (CMS) that allows developers to publish
 - [Tests](#tests)
 - [Questions](#questions)
 
+## LiveURL
+
+- [LiveURL]()
+
 ## Installation
 
 To install and run the Tech Blog application locally, follow these steps:
 
-1. Clone the repository from [GitHub](https://github.com/your-username/tech-blog).
+1. Clone the repository from [GitHub](https://github.com/hyperlitz/LITO_BLOGSPOT).
 
 2. Navigate to the project's root directory and run the following command to install the required dependencies:
 
@@ -67,5 +71,5 @@ No tests are provided at the moment. Feel free to add them if needed.
 
 If you have any questions or need further assistance with this project, please don't hesitate to reach out to the project owner:
 
-- **GitHub Profile**: [Your GitHub Profile](https://github.com/your-username)
-- **Email**: [Your Email Address](mailto:your-email@example.com)
+- **GitHub Profile**: [GitHub Profile](https://github.com/hyperlitz)
+- **Email**: [Email Address](mailto:litobanano@yahoo.com)
