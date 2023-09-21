@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+        .container h2 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-control {
+            border-radius: 20px;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            transition: border-color 0.3s;
+        }
+        .form-control:focus {
+            border-color: #007bff;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            border-radius: 20px;
+            padding: 12px 30px;
+            width: 100%;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+        .login-link {
+            margin-top: 10px;
+            font-size: 14px;
+            text-align: center;
+        }
+        .login-link a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+        .container{
+          margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+  <div class="row justify-content-center">
+      <h2 class="signup">Sign Up</h2>
+      <form class="signup-form">
+          <div class="form-group">
+              <input class="form-control" type="text" placeholder="Username" id="username-signup" />
+          </div>
+          <div class="form-group">
+              <input class="form-control" type="password" placeholder="Password" id="password-signup" />
+          </div>
+          <div class="form-group">
+              <button class="btn btn-primary" type="submit">Sign Up</button>
+          </div>
+          <div class="login-link">
+              <a href="/login">Login Instead</a>
+          </div>
+      </form>
+  </div>
+
+    <!-- Include SweetAlert2 from a CDN or local file -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+    <!-- JavaScript code that uses SweetAlert2 -->
+    <script src="./js/signUp.js"></script>
+</body>
+</html>
